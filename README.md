@@ -22,12 +22,12 @@
 
 ### Update akan datang
 ```
-wget https://raw.githubusercontent.com/Daffastorevps/vip/main/files/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/liontunnel/v2/main/files/update.sh && chmod +x update.sh && ./update.sh
 ```
 # UPDATE & UPGRADE UBUNTU 20
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</code></pre>
 ### INSTALL SCRIPT 
-<pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Daffastorevps/vip/main/setup-main.sh && chmod +x setup-main.sh && sed -i -e 's/ $//' setup-main.sh && screen -S setupku ./setup-main.sh</code></pre>
+<pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/liontunnel/v2/main/setup-main.sh && chmod +x setup-main.sh && sed -i -e 's/ $//' setup-main.sh && screen -S setupku ./setup-main.sh</code></pre>
 ### TESTED ON OS 
 - UBUNTU 20
 - DEBIAN 10 ( Recomended )
