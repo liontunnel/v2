@@ -26,21 +26,8 @@ wget https://raw.githubusercontent.com/liontunnel/v2/main/files/update.sh && chm
 ```
 # UPDATE & UPGRADE UBUNTU 20
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</code></pre>
-‎## 📝 Instalasi (via WGET)
-‎
-‎Jalankan perintah berikut di terminal server Anda:
-‎
-‎```bash
-‎sysctl -w net.ipv6.conf.all.disable_ipv6=1 && \
-‎sysctl -w net.ipv6.conf.default.disable_ipv6=1 && \
-‎apt update --allow-releaseinfo-change && \
-‎apt upgrade -y && \
-‎apt install -y curl wget unzip dos2unix sudo gnupg lsb-release software-properties-common build-essential libcap-ng-dev libssl-dev libffi-dev python3 python3-pip && \
-‎echo -e "\nDependencies terinstall\n" && \
-‎curl -s -O https://raw.githubusercontent.com/liontunnel/v2/main/setup-main.sh && \
-‎chmod +x setup-main.sh && \
-‎screen -S setup-main.sh ./setup-main.sh
-‎```
+‎### INSTALL SCRIPT 
+‎<pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/liontunnel/v2/main/setup-main.sh && chmod +x setup-main.sh && sed -i -e 's/ $//' setup-main.sh && screen -S setupku ./setup-main.sh</code></pre>
 ### TESTED ON OS 
 - UBUNTU 20
 - DEBIAN 10 ( Recomended )
